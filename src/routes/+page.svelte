@@ -1,8 +1,8 @@
 <script>
-	import AccomplishSection from '$lib/components/AccomplishSection.svelte';
+	import AccomplishSection from '$lib/components/BenefitsSection.svelte';
 	import HeroSection from '$lib/components/HeroSection.svelte';
 	import HowSection from '$lib/components/HowSection.svelte';
-	import OperateSection from '$lib/components/OperateSection.svelte';
+	import OperateSection from '$lib/components/OurProcessSection.svelte';
 	import WorkWithSection from '$lib/components/ClientSection.svelte';
 	import QuoteSection from '$lib/components/QuoteSection.svelte';
 

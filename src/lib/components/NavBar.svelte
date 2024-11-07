@@ -6,7 +6,7 @@
 		</div>
 
 		<ul class="navbar__links">
-			<li class="navbar__link"><a href="#services">Services</a></li>
+			<!-- <li class="navbar__link"><a href="#services">Services</a></li> -->
 			<li class="navbar__link"><a href="#our-process">Our Process</a></li>
 			<li class="navbar__link"><a href="#benefits">Benefits</a></li>
 			<li class="navbar__link"><a href="#industries">Industries</a></li>

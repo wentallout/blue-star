@@ -37,7 +37,7 @@ Staff training chatbots: we build AI-driven chatbots that utilize your SOP docum
 </script>
 
 <section class="client g-pad">
-	<h2 class="client__title">Who we work with</h2>
+	<h2 id="industries" class="client__title">Who we work with</h2>
 
 	<div class="client__count"><span class="dot"></span>Taking on 3 clients/month</div>
 
@@ -60,6 +60,7 @@ Staff training chatbots: we build AI-driven chatbots that utilize your SOP docum
 		border: 1px solid grey;
 		width: fit-content;
 		margin-inline: auto;
+		margin-bottom: var(--space-m);
 	}
 
 	.client__content {
@@ -67,11 +68,13 @@ Staff training chatbots: we build AI-driven chatbots that utilize your SOP docum
 		grid-template-columns: 1fr 1fr;
 		padding: 75px 60px;
 		border: 1px solid grey;
+		gap: var(--space-l);
 	}
 
 	.client__list {
 		display: flex;
 		flex-direction: column;
+		gap: var(--space-s);
 	}
 
 	.client__item {
@@ -79,5 +82,8 @@ Staff training chatbots: we build AI-driven chatbots that utilize your SOP docum
 		display: flex;
 		justify-content: left;
 		align-items: center;
+		border-radius: var(--border-radius);
+		padding: var(--space-xs) var(--space-s);
+		border: 1px solid var(--border-dark);
 	}
 </style>

@@ -1,7 +1,7 @@
 <section class="operate g-pad">
 	<div class="operate__content">
-		<h2 class="operate__title">this is how we operate</h2>
-		<button class="operate__button operate__button--primary">Free AI Consultation</button>
+		<h2 id="our-process" class="operate__title">this is how we operate</h2>
+		<button class="operate__button">Free AI Consultation</button>
 	</div>
 
 	<div class="operate__steps">
@@ -40,8 +40,8 @@
 <style>
 	.operate__steps {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		gap: 16px;
+		grid-template-columns: 1fr;
+		gap: var(--space-m);
 
 		.step {
 			padding: 50px;
@@ -49,15 +49,28 @@
 		}
 	}
 
+	@media (min-width: 768px) {
+		.operate__steps {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
+	.operate__content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 	.step__number {
 		color: blue;
 		font-size: 64px;
-		margin-bottom: 20px;
+		margin-bottom: var(--space-s);
 		font-weight: 600;
 	}
 
 	.step__title {
-		font-size: 24px;
+		font-size: var(--step-2);
 		font-weight: 500;
 		margin-bottom: 18px;
 	}
