@@ -1,6 +1,7 @@
-# sv
+# About Blue Star
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Blue Star is a AI consulting organization.
+
 
 ## Developing
 
