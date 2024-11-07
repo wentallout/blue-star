@@ -1,0 +1,50 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(spacing.css);
+@import url(color.css);
+
+:root 
+{
+    --border-radius-sm: 12px;
+    --border-radius: 16px;
+    --border-radius-lg: 20px;
+}
+
+
+html
+{
+    font-family: 'Space Grotesk Variable', sans-serif;
+    background-color: var(--background-50);
+    color: var(--text-50);
+    scroll-behavior: smooth;
+}
+
+
+
+section 
+{
+    margin-bottom: var(--space-3xl);
+
+    h2 {
+        font-size: var(--step-4);
+        text-align: center;
+        margin-bottom: var(--space-l);
+    }
+}
+
+
+.g-pad 
+{
+    max-width: 64rem;
+    margin-inline:auto;
+}
+
+.btn 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 0px 15px 0.82px inset;
+    padding: var(--space-xs) var(--space-m);
+}
